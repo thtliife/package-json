@@ -30,6 +30,7 @@
     "scoped"
   ],
   "dependencies": {
+    "caw": "^2.0.1",
     "got": "^6.7.1",
     "registry-auth-token": "^3.0.1",
     "registry-url": "^3.0.3",
