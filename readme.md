@@ -1,3 +1,14 @@
+# package-json (Mod for proxy users)
+_This package exists soley so I can overwrite the package-json used by various packages (eg npm-check) with one that will work through a proxy_
+## Usage
+```bash
+cd path/to/package/that/depends/on/package-json
+yarn remove package-json
+yarn add https://github.com/thtliife/package-json
+```
+Thats it!
+
+__Original readme:__
 # package-json [![Build Status](https://travis-ci.org/sindresorhus/package-json.svg?branch=master)](https://travis-ci.org/sindresorhus/package-json)
 
 > Get metadata of a package from the npm registry
