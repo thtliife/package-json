@@ -1,5 +1,7 @@
 # package-json (Mod for proxy users)
-_This package exists soley so I can overwrite the package-json used by various packages (eg npm-check) with one that will work through a proxy_
+_This package exists solely so I can overwrite the package-json used by various packages (eg npm-check) with one that will work through a proxy.
+I am implementing this way as @sindresorhus states [he has no plans for adding proxy support](https://github.com/sindresorhus/package-json/issues/22)._
+
 ## Usage
 ```bash
 cd path/to/package/that/depends/on/package-json
