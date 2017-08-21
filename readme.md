@@ -3,6 +3,14 @@ _This package exists solely so I can overwrite the package-json used by various 
 I am implementing this way as @sindresorhus states [he has no plans for adding proxy support](https://github.com/sindresorhus/package-json/issues/22)._
 
 ## Usage
+_with npm_
+```bash
+cd path/to/package/that/depends/on/package-json
+npm uninstall package-json
+npm install https://github.com/thtliife/package-json
+```
+or
+_with yarn_
 ```bash
 cd path/to/package/that/depends/on/package-json
 yarn remove package-json
